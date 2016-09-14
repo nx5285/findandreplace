@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>查找和替换</title>
+		<link rel="stylesheet" type="text/css" href="css/chazhao.css"/>
+		<script src="js/chazhao.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<section class="box">
+			<div class="top clearfix">
+				<div id="text" class="text_box">
+					<p>
+						病毒没有合成蛋白质的机构——核糖体，也没有合成细胞物质和繁殖所必备的酶系统，不具独立的代谢能力，必须专性寄宿在活的敏感宿主细胞内，
+					依靠宿主细胞合成病毒的化学组成和繁殖新个体。其特点是：病毒在活的敏感宿主细胞内是具有生命的超微生物，
+					然而，在宿主体外却呈现不具生命特征的大分子物质，但仍保留感染宿主的潜在能力，一旦重新进入活的宿主细胞内又具有生命特征，
+					重新感染新宿主。
+					</p>
+					<p>
+						依据是：病毒是根据病毒的宿主、所致疾病、核酸的类型、病毒粒子的大小、病毒的结构、有或无被膜等进行分类的。根据转性宿主分类：有动物病毒、植物病毒、细菌病毒（噬菌体）、放线菌病毒（噬放线菌体）、藻类病毒（噬藻体）、真菌病毒（噬真菌体）。
+						按核酸分类：有DNA病毒和RNA病毒。
+					</p>
+					<p>
+						病毒的化学组成有蛋白质和核酸。还含有脂质和多糖。整个病毒体分两部分：蛋白质衣壳和核酸内芯，两者构成核衣壳。
+					蛋白质衣壳是由一定数量的衣壳粒按一定的排列组合构成的病毒外壳。核酸内芯有两种：核糖核酸（RNA）和脱氧核糖核酸（DNA）。
+					</p>
+				</div>
+				<div class="btn_box">
+					<input type="button" id="expand" value="展开" class="btn"/>
+					<div id="btn_class">
+						<input type="button" value="查找" class="btn"/>
+						<input type="button" value="替换" class="btn"/>
+					</div>
+				</div>
+			</div>
+			<div id="bottom" class="bottom">
+				<div class="inner">
+					<div class="main" id="main">
+						<em >查找</em>
+						<em >替换</em>
+					</div>
+					<div class="bottombox clearfix">
+						<input type="text" id="findtext" placeholder="请输入要查找的内容" class="text"/>
+						<input type="button" id="findOK" value="查找" class="btn" />
+					</div>
+					<div class="bottombox clearfix">
+						<input type="text" id="exchangetext1" class="text" />
+						<span>→</span>
+						<input type="text" id="exchangetext2" class="text" />
+						<input type="button" id="exchangeOK" value="替换" class="btn"/>
+						<input type="button" id="confine" value="确认替换" class="btn"/>
+						<input type="button" id="cancel" value="取消替换" class="btn"/>
+					</div>
+					<span id="close">×</span>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>

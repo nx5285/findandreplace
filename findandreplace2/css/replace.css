@@ -1,0 +1,119 @@
+body{
+	margin: 0;
+}
+input{
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+#box{
+	width: 550px;
+	height: 450px;
+	background-color: #efefe7;
+	margin: 100px auto;
+	position: relative;
+}
+#show{
+	width: 400px;
+	height: 250px;
+	background-color: white;
+	margin: 20px;
+	font-size: 14px;
+	line-height: 20px;
+	float: left;
+}
+#btns{
+	width: 80px;
+	height: 105px;
+	float: left;
+	margin-top: 20px;
+}
+#unfold{
+	width: 80px;
+	height: 30px;
+	margin-bottom: 5px;
+	background-color: #ccc;
+	display: block;
+}
+#cbtn{
+	width: 80px;
+	height: 70px;
+	display: none;
+}
+ #cbtn .find,#cbtn .replace{
+	width: 80px;
+	height: 30px;
+	margin-bottom: 5px;
+	background-color: #ccc;
+}
+#setbox{
+	width: 490px;
+	height: 115px;
+	border: 5px solid #e71063;
+	position: absolute;
+	background-color: #e7e7b5;
+	bottom: 20px;
+	left: 25px;
+	display: none;
+}
+#sbtn{
+	width: 200px;
+	height: 40px;
+	position: absolute;
+	top:20px;
+	left: 20px;
+}
+#sbtn .find,#sbtn .replace{
+	width: 80px;
+	height: 40px;
+	background-color: #ddd;
+}
+#close{
+	background-color: #e7e7b5;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+#int{
+	width: 450px;
+	height: 2px;
+	background: red;
+	display: block;
+	position: absolute;
+	top: 60px;
+	left: 20px;
+}
+.frset{
+	width: 450px;
+	height: 30px;
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	line-height: 30px;
+	display: none;
+}
+#findtxt{
+	width: 152px;
+	height: 22px;
+	border: 2px solid gray; 
+}
+#replacetxt1{
+	width: 152px;
+	height: 22px;
+	border: 2px solid gray; 
+}
+#replacetxt2{
+	width: 152px;
+	height: 22px;
+	border: 2px solid gray; 
+}
+#findend{
+	width: 148px;
+	height: 18px;
+	border: 1px solid gray; 
+}
+#reend{
+	width: 30px;
+	height: 18px;
+	border: 1px solid gray; 
+}
